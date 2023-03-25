@@ -2364,23 +2364,6 @@ ALTab:AddSwitch("AimLock", function(bool)
     DaHoodSettings.AimLock = bool
 end)
  
-ALTab:AddSwitch("Webhook Mode", function(bool)
-    DaHoodSettings.Webh = bool
-end)
- 
-ALTab:AddSwitch("Notification Mode", function(bool)
-    DaHoodSettings.Not = bool
-end)
- 
-ALTab:AddSwitch("Copy Mode", function(bool)
-    DaHoodSettings.Cop = bool
-end)
- 
- 
-ALTab:AddSwitch("Predict Lag", function(bool)
-    DaHoodSettings.Prediction.Lag = bool
-end)
- 
 ALTab:AddSwitch("FOV Circle", function(bool)
     Aiming.ShowFOV = bool
 end)
