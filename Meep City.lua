@@ -3,8 +3,8 @@ for i,v in pairs(getconnections(game:GetService("ScriptContext").Error)) do
    v:Disable()
 end
 local Config = {
-    WindowName = "Fu Kang Hub NextGeneration",
-	Color = Color3.fromRGB(0,194,255),
+    WindowName = "Fu Kang Hub V2",
+	Color = Color3.fromRGB(255,0,0),
 	Keybind = Enum.KeyCode.RightControl
 }
 game:GetService("Players").LocalPlayer.Idled:connect(function()
