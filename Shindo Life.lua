@@ -1,6 +1,6 @@
 local Config = {
-    WindowName = "Fu Kang Hub NextGeneration",
-	Color = Color3.fromRGB(0,194,255),
+    WindowName = "Fu Kang Hub V2",
+	Color = Color3.fromRGB(255,0,0),
 	Keybind = Enum.KeyCode.RightControl
 }
 repeat task.wait() until game:IsLoaded() 
@@ -1486,7 +1486,9 @@ Toggle3:CreateKeybind(tostring(Config.Keybind):gsub("Enum.KeyCode.", ""), functi
 	Config.Keybind = Enum.KeyCode[Key]
 end)
 Toggle3:SetState(true)
-Section3:CreateLabel("Credits x2Sleep#2433")
+Section3:CreateLabel("Credits DekuDimz#7960")
+Section3:CreateLabel("Credits AlexR32#3232 Ui")
+Section3:CreateLabel("Credits The3Bakers")
 local Colorpicker3 = Section3:CreateColorpicker("UI Color", function(Color)
 	Window:ChangeColor(Color)
 end)
