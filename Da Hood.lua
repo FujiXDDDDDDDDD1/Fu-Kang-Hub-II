@@ -1,5 +1,5 @@
 local ui_options = {
-    main_color = Color3.fromRGB(0, 213, 255),
+    main_color = Color3.fromRGB(255, 0, 0),
     min_size = Vector2.new(400, 300),
     toggle_key = Enum.KeyCode.RightControl,
     can_resize = true,
@@ -2099,7 +2099,7 @@ do
     library:FormatWindows()
 end
  
-local Window = library:AddWindow("Fu Kang Hub Next Generation", {
+local Window = library:AddWindow("Fu Kang Hub V2", {
     main_color = Color3.fromRGB(0, 222, 255),
     min_size = Vector2.new(450, 500),
     toggle_key = Enum.KeyCode.RightShift,
@@ -2152,7 +2152,7 @@ end
 local bindableFunction= Instance.new("BindableFunction")
  
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Fu Kang Hub Next Generation";
+    Title = "Fu Kang Hub V2";
     Text = "By x2Sleep#2222";
     Duration = "ฟินมั้ย";
     callbakc = bindableFunction;
@@ -2285,7 +2285,7 @@ CreditTAB:AddButton("Join https://discord.gg/2MSwbMgF6c", function(bool)
     local bindableFunction= Instance.new("BindableFunction")
     
     game.StarterGui:SetCore("SendNotification", {
-        Title = "Fu Kang Hub Next Generation";
+        Title = "Fu Kang Hub V2";
         Text = "Discord Link Copied On Clipboard";
         Duration = "DURATION IN SECONDS";
         callbakc = bindableFunction;
