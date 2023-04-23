@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Fu Kang Hub NextGeneration | City BanNa", "Midnight")
+local Window = Library.CreateLib("Fu Kang Hub V2 | City BanNa", "BloodTheme")
 
 local Tab = Window:NewTab("ฟาร์ม")
 
